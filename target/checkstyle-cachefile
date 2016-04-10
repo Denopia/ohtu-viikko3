@@ -1,7 +1,8 @@
-#Sun Apr 10 03:22:20 EEST 2016
+#Sun Apr 10 20:29:42 EEST 2016
+/home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/data_access/FileUserDao.java=1460309372000
 /home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/io/IO.java=1460242035000
-/home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/data_access/InMemoryUserDao.java=1460242140000
-/home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/App.java=1460247245000
+/home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/data_access/InMemoryUserDao.java=1460308352000
+/home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/App.java=1460248487000
 /home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/data_access/UserDao.java=1460241996000
 /home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/domain/User.java=1460241917000
 /home/miika/workspace/LoginEasyBv1/src/main/java/ohtu/io/ConsoleIO.java=1460242170000
