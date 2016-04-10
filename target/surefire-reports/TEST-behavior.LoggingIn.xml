@@ -1,6 +1,6 @@
-<testsuite tests='3' results='1' failures='2' disabled='0' errors='0' time='0.533' name='behavior.logging_in_Story'>
+<testsuite tests='3' results='1' failures='2' disabled='0' errors='0' time='0.495' name='behavior.logging_in_Story'>
   <testcase classname='behavior.logging_in_Story' name='user can login with correct password' time='0.054' />
-  <testcase classname='behavior.logging_in_Story' name='user can not login with incorrect password' time='0.02'>
+  <testcase classname='behavior.logging_in_Story' name='user can not login with incorrect password' time='0.018'>
     <failure message='Step "user will not be logged in to system" -- [&gt;, username:, password:, rong username or password, &gt;] doesn&apos;t contain wrong username or password'>Step "user will not be logged in to system" -- [&gt;, username:, password:, rong username or password, &gt;] doesn't contain wrong username or password
 
     scenario user can not login with incorrect password
@@ -8,7 +8,7 @@
       when a valid username and incorrect password are entered
       then user will not be logged in to system</failure>
   </testcase>
-  <testcase classname='behavior.logging_in_Story' name='nonexistent user can not login to ' time='0.003'>
+  <testcase classname='behavior.logging_in_Story' name='nonexistent user can not login to ' time='0.004'>
     <failure message='Step "user will not be logged in to system" -- [&gt;, username:, password:, rong username or password, &gt;] doesn&apos;t contain wrong username or password'>Step "user will not be logged in to system" -- [&gt;, username:, password:, rong username or password, &gt;] doesn't contain wrong username or password
 
     scenario nonexistent user can not login to 
