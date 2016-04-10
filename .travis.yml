@@ -1,4 +1,2 @@
 language: java
-script:
--mvn integration-test
--mvn jxr:jxr checkstyle:checkstyle -D"checkstyle.config.location=my_checks_modified.xml
+script: mvn integration-test && mvn jxr:jxr checkstyle:checkstyle -D"checkstyle.config.location=my_checks_modified.xml"
