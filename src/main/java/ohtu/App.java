@@ -11,7 +11,7 @@ import org.springframework.context.support.FileSystemXmlApplicationContext;
 import org.springframework.stereotype.Component;
 
 @Component
-                              public class App {
+public class App {
 
     private IO io;
     private AuthenticationService auth;
