@@ -67,9 +67,9 @@
             <tbody>
               <tr class='primaryRow'>
                 <td>10</td>
+                <td class='stepResultFailed'>3</td>
                 <td class=''>0</td>
-                <td class=''>0</td>
-                <td>0.643</td>
+                <td>0.705</td>
               </tr>
             </tbody>
           </table>
@@ -88,9 +88,9 @@
               <tr class='primaryRow'>
                 <td>2</td>
                 <td>10</td>
+                <td class='stepResultFailed'>3</td>
                 <td class=''>0</td>
-                <td class=''>0</td>
-                <td>0.643</td>
+                <td>0.705</td>
               </tr>
             </tbody>
           </table>
@@ -137,9 +137,9 @@
          
         </td>
         <td>3</td>
+        <td class='stepResultFailed'>2</td>
         <td class=''>0</td>
-        <td class=''>0</td>
-        <td>0.487</td>
+        <td>0.533</td>
       </tr>
 
        
@@ -151,7 +151,7 @@
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>user can login with correct password</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.047</td>
+                <td title='Time (sec)'>0.054</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -178,8 +178,8 @@
               
               <tr class='secondaryScenarioRow'>
                 <td title='Scenario'>user can not login with incorrect password</td>
-                <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.006</td>
+                <td title='Result' class='stepResultFailed'>failure</td>
+                <td title='Time (sec)'>0.02</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -198,15 +198,46 @@
               
               <tr class='scenarioComponents'>
                 <td>then user will not be logged in to system</td>
-                <td class='stepResultSuccess'>success</td>
+                <td class='stepResultFailed'>failure</td>
                 <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  
+                    <b>null</b><br/>  
+                  
+                  <strong>org.easyb.exception.VerificationException: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:52)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:190)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+                  
+                  <br />org.easyb.BehaviorCategory.throwValidationException(BehaviorCategory.groovy:11)
+                  
+                  <br />
+                </td>
               </tr>
               
               
               
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>nonexistent user can not login to </td>
-                <td title='Result' class='stepResultSuccess'>success</td>
+                <td title='Result' class='stepResultFailed'>failure</td>
                 <td title='Time (sec)'>0.003</td>
               </tr>
               
@@ -226,8 +257,39 @@
               
               <tr class='scenarioComponents'>
                 <td>then user will not be logged in to system</td>
-                <td class='stepResultSuccess'>success</td>
+                <td class='stepResultFailed'>failure</td>
                 <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  
+                    <b>null</b><br/>  
+                  
+                  <strong>org.easyb.exception.VerificationException: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+                  
+                  <br />org.easyb.BehaviorCategory.throwValidationException(BehaviorCategory.groovy:11)
+                  
+                  <br />org.easyb.BehaviorCategory$throwValidationException.callStatic(Unknown Source)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:48)
+                  
+                  <br />
+                </td>
               </tr>
               
               
@@ -245,9 +307,9 @@
          
         </td>
         <td>7</td>
+        <td class='stepResultFailed'>1</td>
         <td class=''>0</td>
-        <td class=''>0</td>
-        <td>0.156</td>
+        <td>0.172</td>
       </tr>
 
        
@@ -259,7 +321,7 @@
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>creation succesfull with correct username and password</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.003</td>
+                <td title='Time (sec)'>0.004</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -287,7 +349,7 @@
               <tr class='secondaryScenarioRow'>
                 <td title='Scenario'>can login with succesfully generated account</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.002</td>
+                <td title='Time (sec)'>0.003</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -315,7 +377,7 @@
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>creation fails with correct username and too short password</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.004</td>
+                <td title='Time (sec)'>0.003</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -343,7 +405,7 @@
               <tr class='secondaryScenarioRow'>
                 <td title='Scenario'>creation fails with correct username and pasword consisting of letters</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.002</td>
+                <td title='Time (sec)'>0.003</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -371,7 +433,7 @@
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>creation fails with too short username and valid pasword</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.003</td>
+                <td title='Time (sec)'>0.004</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -399,7 +461,7 @@
               <tr class='secondaryScenarioRow'>
                 <td title='Scenario'>creation fails with already taken username and valid pasword</td>
                 <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.002</td>
+                <td title='Time (sec)'>0.003</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -426,8 +488,8 @@
               
               <tr class='primaryScenarioRow'>
                 <td title='Scenario'>can not login with account that is not succesfully created</td>
-                <td title='Result' class='stepResultSuccess'>success</td>
-                <td title='Time (sec)'>0.002</td>
+                <td title='Result' class='stepResultFailed'>failure</td>
+                <td title='Time (sec)'>0.003</td>
               </tr>
               
               <tr class='scenarioComponents'>
@@ -446,8 +508,39 @@
               
               <tr class='scenarioComponents'>
                 <td>then new credentials do not allow logging in to system</td>
-                <td class='stepResultSuccess'>success</td>
+                <td class='stepResultFailed'>failure</td>
                 <td />
+              </tr>
+              
+              <tr>
+                <td colspan='3' style='color:red; padding-left: 1cm;'>
+                  
+                    <b>null</b><br/>  
+                  
+                  <strong>org.easyb.exception.VerificationException: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password</strong>
+                  
+                  <br />sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+                  
+                  <br />sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+                  
+                  <br />java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:77)
+                  
+                  <br />org.codehaus.groovy.reflection.CachedConstructor.doConstructorInvoke(CachedConstructor.java:71)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrap.callConstructor(ConstructorSite.java:81)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:198)
+                  
+                  <br />org.easyb.BehaviorCategory.throwValidationException(BehaviorCategory.groovy:11)
+                  
+                  <br />org.easyb.BehaviorCategory$throwValidationException.callStatic(Unknown Source)
+                  
+                  <br />org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallStatic(CallSiteArray.java:48)
+                  
+                  <br />
+                </td>
               </tr>
               
               
@@ -468,10 +561,10 @@
 <div id='StoriesListPlain' style='display:none;'>
   <h2>Stories Text</h2>
   
-  <div>10 scenarios executed successfully.</div>
-  <div><br/><br/>&nbsp;&nbsp;Story: logging_in_<br/><br/>&nbsp;&nbsp;&nbsp;User can log in with valid username/password-combination<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario user can login with correct password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will be logged in to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario user can not login with incorrect password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and incorrect password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will not be logged in to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario nonexistent user can not login to <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a nonexistent username and some password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will not be logged in to system<br/><br/>&nbsp;&nbsp;Story: new_user_creation_<br/><br/>&nbsp;&nbsp;&nbsp;A new user account can be created 
+  <div>10 scenarios executed, but status is failure! Total failures: 3</div>
+  <div><br/><br/>&nbsp;&nbsp;Story: logging_in_<br/><br/>&nbsp;&nbsp;&nbsp;User can log in with valid username/password-combination<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario user can login with correct password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will be logged in to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario user can not login with incorrect password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and incorrect password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will not be logged in to system&nbsp;<span style='color:#FF8080;'>[FAILURE: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password]</span><br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario nonexistent user can not login to <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command login selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a nonexistent username and some password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then user will not be logged in to system&nbsp;<span style='color:#FF8080;'>[FAILURE: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password]</span><br/><br/>&nbsp;&nbsp;Story: new_user_creation_<br/><br/>&nbsp;&nbsp;&nbsp;A new user account can be created 
               if a proper unused username 
-              and a proper password are given<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation succesfull with correct username and password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario can login with succesfully generated account<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new credentials allow logging in to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with correct username and too short password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and too short password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with correct username and pasword consisting of letters<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password consisting of letters are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with too short username and valid pasword<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a too sort username and valid password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with already taken username and valid pasword<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a already taken username and valid password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario can not login with account that is not succesfully created<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a invalid username/password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new credentials do not allow logging in to system</div>
+              and a proper password are given<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation succesfull with correct username and password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario can login with succesfully generated account<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new credentials allow logging in to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with correct username and too short password<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and too short password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with correct username and pasword consisting of letters<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a valid username and password consisting of letters are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with too short username and valid pasword<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a too sort username and valid password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario creation fails with already taken username and valid pasword<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a already taken username and valid password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new user is not be registered to system<br/><br/>&nbsp;&nbsp;&nbsp;&nbsp;scenario can not login with account that is not succesfully created<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;given command new user is selected<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;when a invalid username/password are entered<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;then new credentials do not allow logging in to system&nbsp;<span style='color:#FF8080;'>[FAILURE: [>, username:, password:, rong username or password, >] doesn't contain wrong username or password]</span></div>
 </div>
 
       </div>
