@@ -47,7 +47,7 @@ public class App {
         if (auth.logIn(usernameAndPasword[0], usernameAndPasword[1])) {
             io.print("logged in");
         } else {
-            io.print("wrong username or password");
+            io.print("999wrong username or password");
         }
     }
 
