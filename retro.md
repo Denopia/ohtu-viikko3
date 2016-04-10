@@ -1,6 +1,6 @@
-##7. Retrospektiivitekniikat
+#7. Retrospektiivitekniikat
 
-#Star, Stop, Continue, More of, Less of Wheel
+##Star, Stop, Continue, More of, Less of Wheel
 
 Tässä tekniikassa iteraation lopussa ryhmä kokoontuu
 keskustelemaan siitä, mitä kannattaisi aloittaa, lopettaa
@@ -9,7 +9,7 @@ otetaan kommentteja ja lopuksi niistä keskustellaan ja
 sovitaan kuinka nämä asiat otetaan huomioon seuraavassa
 iteraatiossa.
 
-#Glad, Sad, Mad
+##Glad, Sad, Mad
 
 Tässä vähän samaan tyyliin jokainen jäsen kirjoittaa
 lapuille komentteja viimeisestä iteraatiosta, minkä jälkeen
